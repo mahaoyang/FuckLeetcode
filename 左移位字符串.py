@@ -8,3 +8,5 @@ class Solution:
         if n > length:
             n = n % length
         return s[n:] + s[:n]
+
+
