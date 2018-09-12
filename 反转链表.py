@@ -7,12 +7,6 @@ from copy import deepcopy
 
 
 class Solution:
-    @staticmethod
-    def swap(a, b):
-        temp = deepcopy(b)
-        b = deepcopy(a)
-        a = temp
-        return a, b
 
     # 返回ListNode
     def reverseList(self, node):
